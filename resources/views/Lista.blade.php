@@ -1,17 +1,17 @@
 @extends('welcome')
 @section('content')
     <div class="row justify-content-around"> 
-        <div class="col-4">
+        <div class="col-md-4">
             <div class="d-grid gap-2">
                 <a href="{{url('')}}/" class="btn btn-danger"><i class="fa-solid fa-angle-left fa-beat-fade"></i> Volver </a>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-md-4">
             <div class="d-grid gap-2">
                 <button class="btn btn-primary" type="button" onclick="refresh()"><i class="fa-solid fa-arrows-rotate fa-spin"></i> Refrescar </button>
             </div>
         </div>
-        <div class="col-12 mt-3">
+        <div class="col-md-12 mt-3">
             <table class="tbl table  table-striped" style="width:100%">
                     <thead class="table-dark">
                     <tr>
@@ -29,6 +29,7 @@
                         <th>Pasillo</th>
                         <th>Nombre Pasillo</th>
                         <th>comparimento</th>
+                        <th>Ubicaión</th>
                         <th>Tipo Operación</th>
                         <th>Operador</th>
                         <th>Cliente</th>
@@ -53,6 +54,7 @@
                             <td>{{$value->UDC}}</td>
                             <td>{{$value->NOMBRE_PASILLO}}</td>
                             <td>{{$value->COMPARTIMENTO}}</td>
+                            <td>{{$value->UBICACION}}</td>
                             <td>{{$value->NOMBRE_TIPO_OPERACION}}</td>
                             <td>{{$value->OPERADOR_QUE_EJECUTA}}</td>
                             <td>{{$value->CLIENTE}}</td>
