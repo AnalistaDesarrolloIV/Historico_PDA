@@ -3,7 +3,7 @@
     <div class="row justify-content-around"> 
         <div class="col-4">
             <div class="d-grid gap-2">
-                <a href="/" class="btn btn-danger"><i class="fa-solid fa-angle-left fa-beat-fade"></i> Volver </a>
+                <a href="{{url('')}}/" class="btn btn-danger"><i class="fa-solid fa-angle-left fa-beat-fade"></i> Volver </a>
             </div>
         </div>
         <div class="col-4">
