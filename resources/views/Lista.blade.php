@@ -23,6 +23,7 @@
                         <th>Lote</th>
                         <th>Cantidad</th>
                         <th>Cantidad Post Operación</th>
+                        <th>Estado</th>
                         <th>Bahia</th>
                         <th>Nombre Bahia</th>
                         <th>Pasillo</th>
@@ -46,6 +47,7 @@
                             <td>{{$value->LOTE}}</td>
                             <td>{{round($value->CANTIDAD)}}</td>
                             <td>{{round($value->CANTIDAD_POST_OPERACION)}}</td>
+                            <td>{{$value->ESTADO}}</td>
                             <td>{{$value->BAHIA}}</td>
                             <td>{{$value->NOMBRE_BAHIA}}</td>
                             <td>{{$value->UDC}}</td>

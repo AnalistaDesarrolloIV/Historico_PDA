@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="row justify-content-center relative flex items-top justify-center min-h-screen sm:items-center py-4 sm:pt-0">
-        <div class="col-5 opacidad p-5">
+        <div class="col-md-5 opacidad p-5">
             <form class="" action="{{route('histotico.filtro')}}" method="post">
                 @csrf
                 <div class="row">
