@@ -35,3 +35,4 @@ Route::get('/', function () {
 // Route::get('/hitoricoFiltro',[HistoricoController::class,'index'])->name('histotico.filtro');
 Route::post('/hitoricoFiltro',[HistoricoController::class,'filtro'])->name('histotico.filtro');
 Route::post('/hitoricoFiltro2',[HistoricoController::class,'filtro2'])->name('histotico.filtro2');
+Route::post('/hitoricoFiltro3',[HistoricoController::class,'filtro3'])->name('histotico.filtro3');
