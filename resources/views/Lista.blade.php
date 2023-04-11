@@ -24,14 +24,14 @@
                         <th>Cantidad</th>
                         <th>Cantidad Post Operación</th>
                         <th>Estado</th>
-                        <th>Bahia</th>
                         <th>Nombre Bahia</th>
-                        <th>Pasillo</th>
                         <th>Nombre Pasillo</th>
-                        <th>comparimento</th>
                         <th>Ubicaión</th>
-                        <th>Tipo Operación</th>
                         <th>Operador</th>
+                        <th>Bahia</th>
+                        <th>Pasillo</th>
+                        <th>comparimento</th>
+                        <th>Tipo Operación</th>
                         <th>Cliente</th>
                         <th>Vendedor</th>
                         <th>Tiempo Picking (sec)</th>
@@ -49,14 +49,14 @@
                             <td>{{round($value->CANTIDAD)}}</td>
                             <td>{{round($value->CANTIDAD_POST_OPERACION)}}</td>
                             <td>{{$value->ESTADO}}</td>
-                            <td>{{$value->BAHIA}}</td>
                             <td>{{$value->NOMBRE_BAHIA}}</td>
-                            <td>{{$value->UDC}}</td>
                             <td>{{$value->NOMBRE_PASILLO}}</td>
-                            <td>{{$value->COMPARTIMENTO}}</td>
                             <td>{{$value->UBICACION}}</td>
-                            <td>{{$value->NOMBRE_TIPO_OPERACION}}</td>
                             <td>{{$value->OPERADOR_QUE_EJECUTA}}</td>
+                            <td>{{$value->BAHIA}}</td>
+                            <td>{{$value->UDC}}</td>
+                            <td>{{$value->COMPARTIMENTO}}</td>
+                            <td>{{$value->NOMBRE_TIPO_OPERACION}}</td>
                             <td>{{$value->CLIENTE}}</td>
                             <td>{{$value->VENDEDOR}}</td>
                             <td>{{$value->TIEMPO_SEGUNDOS}}</td>
