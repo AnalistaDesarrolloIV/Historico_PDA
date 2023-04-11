@@ -28,4 +28,24 @@ class HistoricoController extends Controller
 
 
     }
+    public function filtro2( Request $request)
+    {
+        $inp = $request->all();
+        // dd($inp);
+
+        $histo = DB::select('
+            SELECT 
+            *
+            FROM [dbo].[Historico_2]
+            WHERE [FECHA_OPERACION] >= '."'". $inp['fecha']."'
+            AND [CODIGO_ARTICULO] = '".$inp['producto']."'"
+            
+        
+        );
+        // dd($histo);
+
+        return view('Lista', compact('histo'));
+
+
+    }
 }
