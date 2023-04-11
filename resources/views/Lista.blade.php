@@ -40,7 +40,7 @@
                     <tbody class="table-light">
                     @foreach($histo as $key => $value)
                         <tr>
-                            <td>{{$value->ID}}</td>
+                            <td>{{$key}}</td>
                             <td>{{$value->FECHA_OPERACION}}</td>
                             <td>{{$value->PEDIDO}}</td>
                             <td>{{$value->CODIGO_ARTICULO}}</td>
