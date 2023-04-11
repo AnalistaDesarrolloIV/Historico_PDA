@@ -51,7 +51,7 @@
                         <div class="col-12">
                             <div class="mb-3">
                                 <label for="fecha2" class="form-label">Desde Fecha</label>
-                                <input type="date" class="form-control"  id="fecha2" name="fecha">
+                                <input type="date" class="form-control" max="{{$fecha_actual}}" id="fecha2" name="fecha">
                             </div>
                         </div>
                     </div>
